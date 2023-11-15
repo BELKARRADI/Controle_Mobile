@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom: " />
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom: " />
+
+
+
+    <TextView
+        android:fontFamily="@font/monstserrat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewdateEmbauche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date d'embauche: " />
+
+</LinearLayout>
